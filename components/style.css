@@ -1,37 +1,44 @@
 /*HEADER*/
-.main-header{
+.main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     background-color: var(--bttv-rs-gray-800);
 }
-.logo-header{
+
+.logo-header {
     width: 3em;
     height: 3em;
 }
 
-.main-title-twitch{
-    font-size: 2.2em;
-    text-shadow: 2px 2px var(--color-shadow);
+.main-title-twitch {
+    font-size: 1.5em;
+    font-family: 'Press Start 2P', cursive;
+    text-shadow: 2px 2px 5px var(--color-shadow);
     text-transform: uppercase;
+    color: black;
 }
-.navigation-header a{
+
+.navigation-header a {
     text-decoration: none;
     font-size: 1.2em;
     color: var(--color-text-white);
     margin-left: 0.5em;
     transition: all 300ms;
 }
-.navigation-header a:hover{
+
+.navigation-header a:hover {
     color: var(--color-shadow);
     text-shadow: 2px 2px var(--color-letter-black);
 }
-body{
+
+body {
     background-color: var(--bttv-rs-gray-900);
-    
+
 }
-.main-title-police{
+
+.main-title-police {
     font-size: 2em;
     margin: 10px;
     text-transform: uppercase;
@@ -40,30 +47,31 @@ body{
     transition: all 300ms;
     color: var(--color-text-white);
 }
-.main-title-police:hover{
+
+.main-title-police:hover {
     color: var(--color-shadow);
     text-shadow: 2px 2px var(--color-letter-black);
 }
-.main-title-police::before{
+
+.main-title-police::before {
     content: '[';
 }
-.main-title-police::after{
+
+.main-title-police::after {
     content: ']';
 }
 
 /*SECTION*/
-.lives-twitch-container{
+.lives-twitch-container {
     display: flex;
     flex-wrap: wrap;
     width: 81%;
     margin-inline: auto;
-    background-image: url(../Images/logo-policia.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../Images/logo-policia.jpg) center no-repeat;
     background-size: 40%;
 }
 
-.twitch-card-streamers{
+.twitch-card-streamers {
     display: flex;
     flex-direction: column;
     width: 15em;
@@ -75,37 +83,41 @@ body{
     border: 2px solid black;
     background-color: #2f3236;
 }
-.twitch-card-streamers:hover{
+
+.twitch-card-streamers:hover {
     transform: scale(1.08);
     box-shadow: 1px 1px 10px #6441a5;
 }
 
-.logo-twitch-channel{
+.logo-twitch-channel {
     width: 15em;
     height: 15em;
 }
 
-.twitch-card-streamers figure{
+.twitch-card-streamers figure {
     display: flex;
     align-items: center;
     margin: 5px;
     justify-content: space-around;
 }
 
-.image-character-rp{
+.image-character-rp {
     width: 4em;
     height: 4em;
     border-radius: 50%;
     border: 2px solid black;
 }
-.link-twitch-streamer{
+
+.link-twitch-streamer {
     text-decoration: none;
 }
-.name-twitch-channel{
+
+.name-twitch-channel {
     text-align: center;
     color: white;
     transition: all 300ms;
 }
-.name-twitch-channel:hover{
+
+.name-twitch-channel:hover {
     color: var(--color-shadow);
 }
