@@ -1,0 +1,105 @@
+/*HEADER*/
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--bttv-rs-gray-800);
+}
+.logo-header{
+    width: 3em;
+    height: 3em;
+}
+
+.main-title-twitch{
+    font-size: 2.2em;
+    text-shadow: 2px 2px var(--color-shadow);
+    text-transform: uppercase;
+}
+.navigation-header a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: var(--color-text-white);
+    margin-left: 0.5em;
+    transition: all 300ms;
+}
+.navigation-header a:hover{
+    color: var(--color-shadow);
+    text-shadow: 2px 2px var(--color-letter-black);
+}
+body{
+    background-color: var(--bttv-rs-gray-900);
+    
+}
+.main-title-police{
+    font-size: 2em;
+    margin: 10px;
+    text-transform: uppercase;
+    color: var(--color-text-white);
+    cursor: pointer;
+    transition: all 300ms;
+}
+.main-title-police:hover{
+    color: var(--color-shadow);
+    text-shadow: 2px 2px var(--color-letter-black);
+}
+.main-title-police::before{
+    content: '[';
+}
+.main-title-police::after{
+    content: ']';
+}
+
+/*SECTION*/
+.lives-twitch-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 81%;
+    margin-inline: auto;
+}
+
+.twitch-card-streamers{
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    height: 20em;
+    margin: 1%;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #2f3236;
+    overflow: hidden;
+    transition: all 250ms ease-in-out;
+}
+.twitch-card-streamers:hover{
+    transform: scale(1.08);
+}
+
+.logo-twitch-channel{
+    width: 15em;
+    height: 15em;
+}
+
+.twitch-card-streamers figure{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    justify-content: space-around;
+}
+
+.image-character-rp{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.link-twitch-streamer{
+    text-decoration: none;
+}
+.name-twitch-channel{
+    text-align: center;
+    color: white;
+    transition: all 300ms;
+}
+.name-twitch-channel:hover{
+    color: var(--color-shadow);
+}
