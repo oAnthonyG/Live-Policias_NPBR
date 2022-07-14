@@ -81,7 +81,7 @@ body {
     overflow: hidden;
     transition: all 250ms ease-in-out;
     border-radius: 10px;
-    border: 2px solid black;
+    border: 2px solid var(--color-letter-black);
     background-color: #2f3236;
 }
 
@@ -116,10 +116,75 @@ body {
 
 .name-twitch-channel {
     text-align: center;
-    color: white;
+    color: var(--color-text-white);
     transition: all 300ms;
 }
 
 .name-twitch-channel:hover {
     color: var(--color-shadow);
+}
+
+.contact-section{
+    width: 60%;
+    margin-inline: auto;
+    margin-top: 4rem;
+    background: url(../Images/logo-policia.jpg) center no-repeat;
+    background-size: 40%;
+}
+.text-contact{
+    font-size: 1.3rem;
+    margin-bottom: 4rem;
+    line-height: 1.4;
+    color: var(--color-text-white);
+}
+.sub-title{
+    font-size: 2rem;
+    font-family: 'Secular One', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-shadow);
+    text-shadow: 2px 2px black;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-inline: auto;
+}
+
+.form label{
+    color: var(--color-text-white);
+    margin-bottom: 0.4rem;
+}
+.form input{
+    margin-bottom: 1rem;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 2px solid var(--color-letter-black);
+    font-family: 'Inter', sans-serif;
+}
+.form textarea{
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+}
+
+.button{
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 10px;
+    color: var(--color-text-white);
+    text-shadow: 2px 2px #6441a5;
+    background-color: var(--color-box-grey);
+    transition: all 250ms ease-in-out;
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    background-color: var(--bttv-rs-gray-800);
+    border: 2px solid white;
 }
