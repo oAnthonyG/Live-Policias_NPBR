@@ -13,12 +13,13 @@
 }
 
 .main-title-twitch {
-    font-size: 1.5em;
+    font-size: 1.4em;
     font-family: 'Press Start 2P', cursive;
-    text-shadow: 2px 2px 5px var(--color-shadow);
+    text-shadow: 7px 1px #6441a5;
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
+
 
 .navigation-header a {
     text-decoration: none;
@@ -100,6 +101,7 @@ body {
     margin: 5px;
     justify-content: space-around;
 }
+
 
 .image-character-rp {
     width: 4em;
