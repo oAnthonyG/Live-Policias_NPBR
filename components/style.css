@@ -186,5 +186,52 @@ body {
     cursor: pointer;
     transform: scale(1.08);
     background-color: var(--bttv-rs-gray-800);
-    border: 2px solid white;
+    border: 2px solid var(--color-text-white);
+}
+
+.footer{
+    margin-top: 2rem;
+    color: var(--color-text-white);
+}
+.footer a{
+    text-decoration: none;
+    color: var(--color-shadow);
+}
+.footer a:hover{
+    color: var(--color-letter-black);
+    text-shadow: 1px 1px var(--color-shadow);
+}
+
+@media screen and (max-width: 480px){
+    .main-title-twitch{
+        font-size: .8rem;
+        line-height: 1.5;
+        margin-left: 1rem;
+    }
+    .navigation-header a{
+        line-height: 1.6;
+        text-align: center;
+    }
+    .main-title-police{
+        margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+    }
+    .lives-twitch-container{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .twitch-card-streamers{
+        margin-bottom: 1rem;
+    }
+
+    .contact-section{
+        width:100%;
+    }
+    .text-contact{
+        text-align: center;
+    }
+    .form{
+        width: 90%;
+    }
 }
