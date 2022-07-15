@@ -89,10 +89,17 @@ body {
     transform: scale(1.08);
     box-shadow: 1px 1px 10px #6441a5;
 }
+.title-name-twitch{
+    text-align: center;
+    color: var(--color-text-white);
+    margin-bottom: .20em;
+}
 
 .logo-twitch-channel {
-    width: 15em;
-    height: 15em;
+    width: 13em;
+    height: 13em;
+    margin:  0 auto 0 auto;
+    border-radius: 10px;
 }
 
 .twitch-card-streamers figure {
@@ -120,7 +127,7 @@ body {
     transition: all 300ms;
 }
 
-.name-twitch-channel:hover {
+.name-twitch-channel:hover{
     color: var(--color-shadow);
 }
 
