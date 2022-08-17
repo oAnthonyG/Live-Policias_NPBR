@@ -10,6 +10,10 @@ Futuramente com JavaScript tentarei fazer um mini player no site para quando a p
 
 Adicionarei mais funcionalidades ao decorrer dos meus estudos.
 
+
+Para ver as lives, basta clicar no nome dos personagens(ainda pensando em melhorar essa funcionalidade onde possa ser melhor colocado).
+
+
 ### Screenshot
 
 ![](./FireShot%20Capture%20%20-%20Live%20Policias%20NP-BR.png)
